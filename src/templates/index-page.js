@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby";
 import styled from "styled-components";
 import Layout from "../components/Layout";
 import logo from "../img/logo-red.svg";
+import SEO from "../components/SEO";
 
 const Wrapper = styled.div`
   margin: 0 auto;
@@ -78,6 +79,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
+      <SEO title={frontmatter.title} />>
       <IndexPageTemplate heading={frontmatter.heading} />
     </Layout>
   );

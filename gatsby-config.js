@@ -4,7 +4,23 @@ module.exports = {
   siteMetadata: {
     title: "3 Hour Tour Studios",
     description:
-      "Professional music lessons in the Huntington Beach area, available in-home or in our studio."
+      "Professional music lessons in the Huntington Beach area, available in-home or in our studio.",
+    keywords: [
+      `drum lessons`,
+      `drum studio`,
+      `guitar lessons`,
+      `bass guitar`,
+      `keyboard lessons`,
+      `private mobile lessons`,
+      `private studio lessons`,
+      `3 hour tour studios`,
+      `group lessons`,
+      `green valley homeowners recreation association`,
+      `fountain valley`,
+      `orange county`,
+      `music school`
+    ],
+    author: `@thephilgray`
   },
   plugins: [
     "gatsby-plugin-react-helmet",
