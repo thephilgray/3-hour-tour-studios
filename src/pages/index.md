@@ -1,16 +1,11 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Professional music lessons in the Huntington Beach area, available in-home or in our studio.
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
+heading: Professional music lessons in the Huntington Beach area, available in-home or in our studio.
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  title: Our Mission
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
@@ -68,3 +63,11 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
+Our specialty is providing Professional Studio Musicians who are virtuosos at their instruments. These professionals are also uniquely successful in their ability to convey that knowledge through a proven teaching style, using techniques that our clients have come to enjoy and truly learn from, regardless of age or level of skill.
+
+Many of our customers prefer the convenience of our company traveling to their homes with the necessary tools. Moreover, you may choose in-studio instruction or mobile instruction.
+
+Both offer the same success yet you must decide which is the most convenient and money saving option. Our offices can explain the differences and you can decide on your ideal package, all of which are priced very affordably.
+
+Whether it's guitar (acoustic, electric, 4-5 or 6 string bass, classical, rhythm or lead), a small trap set of jazz percussion drums to a Neil Pert of RUSH double bass, 10 TOM TOM extravaganza or somewhere in the middle, we guarantee you will show improvement with each session!

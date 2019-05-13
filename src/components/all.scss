@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+$red: #d95141;
+
+img {
+  max-width: 100%;
+}
+
+.layout__outer {
+  background: $red;
+  padding: 1em;
+  margin: 0;
+}
+
+.layout__inner {
+  background: #fff;
+  min-height: calc(100vh - 2em);
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.tagline {
+  border-left: 2em solid $red;
+  padding: 1em;
+}
+
+body {
+  font-size: 16px;
+}
+
+
+p{
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+a{
+  color: $red;
+}
+
+footer{
+  p {
+    font-size: 1em;
+  }
+}
