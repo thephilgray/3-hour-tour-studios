@@ -7,13 +7,32 @@ import logo from "../img/logo-red.svg";
 import SEO from "../components/SEO";
 
 const Wrapper = styled.div`
-  margin: 0 auto;
-  padding: 1em;
+  /* margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 
   @media screen and (min-width: 60em) {
     max-width: 50em;
+  } */
+  max-width: 60em;
+  padding-top: 1em;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  min-height: 100vh;
+
+  @media screen and (max-width: 30em) {
+    
+    h1 {
+      font-size: 1.5rem;
+    }
+    h2{
+      font-size: 1rem;
+    }
+    p{
+      font-size: 1rem;
+    }
   }
 `;
 
@@ -28,12 +47,14 @@ const StyledContact = styled.section`
   position: relative;
   text-align: center;
   width: 100%;
+  word-break: break-word;
+  padding: 0 1em;
 
   h2 {
-    margin-bottom: 0;
+    margin: 0;
   }
   p {
-    margin-top: 0;
+    margin: 0;
   }
   @media screen and (min-width: 60em) {
     text-align: right;
@@ -44,12 +65,12 @@ export const IndexPageTemplate = ({ heading }) => (
   <Wrapper>
     <StyledHeader>
       <div style={{ textAlign: "center" }}>
-        <Link to="/" title="Logo">
-          <img
-            src={logo}
-            alt="3 Hour Tour Studios"
-            style={{ minWidth: "300px", margin: "0 auto" }}
-          />
+        <Link
+          to="/"
+          title="Logo"
+          style={{ display: "block", margin: "0 auto" }}
+        >
+          <img src={logo} style={{ width: "75%" }} alt="3 Hour Tour Studios" />
         </Link>
       </div>
       <h1 className="tagline">{heading}</h1>
@@ -79,7 +100,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title={frontmatter.title} />>
+      <SEO title={frontmatter.title} />
       <IndexPageTemplate heading={frontmatter.heading} />
     </Layout>
   );
@@ -101,8 +122,6 @@ export const pageQuery = graphql`
       frontmatter {
         title
         heading
-        subheading
-        description
       }
     }
   }

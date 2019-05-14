@@ -26,6 +26,18 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sass",
     {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        // Add any options here
+      }
+    },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/typography`
+      }
+    },
+    {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: "gatsby-source-filesystem",
       options: {
@@ -47,6 +59,7 @@ module.exports = {
         name: "images"
       }
     },
+
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
