@@ -20,7 +20,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
-  min-height: 100vh;
+  min-height: calc(100vh - 1em);
 
   @media screen and (max-width: 30em) {
     
